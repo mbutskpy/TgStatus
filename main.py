@@ -23,21 +23,9 @@ def status(client_object, message: types.Message):
 
         new_bio = f"{bio} | TgStatus: {status}"
         app.update_profile(bio=new_bio)
-        app.send_message(message.chat.id,f"Установлен статус: **{status}**")
+        app.send_message(message.chat.id,f"Status set: **{status}**")
     except AboutTooLong:
-        app.send_message(message.chat.id, f"Статус **{status}** слишком длинный. Попробуйте сократить его")
-
-@app.on_message(filters.command("shaylushay", prefixes='!'))
-def shaylushay(client_object, message: types.Message):
-    app.send_message(message.chat.id, "We live")
-    sleep(1)
-    app.send_message(message.chat.id, "We love")
-    sleep(1)
-    app.send_message(message.chat.id, "We lie")
-    sleep(1)
-    app.send_sticker(message.chat.id, "CAACAgIAAxkBAAEKTpZlBLxH27F_WvLo6q0BOGl9RsX91gACLj8AAsf1IEiR1sZVvj_zZjAE")
-    app.send_sticker(message.chat.id, "CAACAgIAAxkBAAEKTpZlBLxH27F_WvLo6q0BOGl9RsX91gACLj8AAsf1IEiR1sZVvj_zZjAE")
-    app.send_sticker(message.chat.id, "CAACAgIAAxkBAAEKTpZlBLxH27F_WvLo6q0BOGl9RsX91gACLj8AAsf1IEiR1sZVvj_zZjAE")
+        app.send_message(message.chat.id, f"The **{status}** status is too long. Try to shorten it")
 
 @app.on_message(filters.command("remove_status", prefixes='!') & filters.me)
 def status(client_object, message: types.Message):
@@ -45,8 +33,8 @@ def status(client_object, message: types.Message):
     if "TgStatus" in bio:
         bio = str(bio).replace(f" |{str(bio).split('|')[-1]}", "")
         app.update_profile(bio=bio)
-        app.send_message(message.chat.id, "Статус удален")
+        app.send_message(message.chat.id, "Status removed")
     else:
-        app.send_message(message.chat.id, "У Вас нет статуса")
+        app.send_message(message.chat.id, "You have no status")
 
 app.run()
