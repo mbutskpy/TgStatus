@@ -8,33 +8,34 @@ Then after launching the bot, write your phone number and verification code
 **IMPORTANT: PYROGRAM (PROET ENGINE) IS AN OPEN SOURCE PROGRAM, AND THE SITE https://my.telegram.org/ IS THE OFFICIAL SITE OF TELEGRAM!**
 
 
-## Команды бота
+## Bot commands
 
-**ВАЖНО: КОМАНДЫ БОТА МОЖНО ПИСАТЬ В ЛЮБЫЕ ЧАТЫ, НО ОБЯЗАТЕЛЬНО СО СВОЕГО АККАУНТА!*
+**IMPORTANT: BOT COMMANDS CAN BE WRITED IN ANY CHAT, BUT ALWAYS FROM YOUR ACCOUNT!**
 
 
 
 ### !status {text}
-**"Статус" - текст после команды !status**
-Данная команда добавляет в описание профиля "статус"
+**"Status" - text after the command !status**
+This command adds “status” to the profile description
 
-**Пример:**
-Описание - python dev
+**Example:**
+Description - python dev
 
-"сообщение" - !status writing code
+"message" - !status writing code
 
-Новое описание - python dev | TgStatus: writing code
+New description - python dev | TgStatus: writing code
 
-**ВАЖНО: У ТЕЛЕГРАМ ЕСТЬ ОГРАНИЧЕНИЕ ПО СИМВОЛАМ В ОПИСАНИИ. "СТАТУС" НЕ ДОЛЖЕН БЫТЬ СЛИШКОМ ДЛИННЫМ!**
+**IMPORTANT: TELEGRAMS HAVE A CHARACTER LIMIT IN THE DESCRIPTION. "STATUS" SHOULD NOT BE TOO LONG!**
 
 
 ### !remove_status
-Эта команда убирает статус
+This command clears the status
 
-**Пример:*
-Старое описание - python dev | TgStatus: writing code
+**Example:**
+Old description - python dev | TgStatus: writing code
 
-Описание после команды !remove_status - python dev
+Description after the command !remove_status - python dev
+
 
 
 
