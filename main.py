@@ -1,4 +1,5 @@
-from pyrogram import Client, filters, types
+
+ pyrogram import Client, filters, types
 from configparser import ConfigParser
 from time import sleep
 from pyrogram.errors import AboutTooLong
@@ -11,7 +12,8 @@ api_id = config.get('pyrogram', 'api_id')
 api_hash = config.get('pyrogram', 'api_hash')
 
 app = Client('my_account', api_id, api_hash)
-@app.on_message(filters.command("status", prefixes='!') & filters.me)
+
+@app.on_message(.command("status", prefixes='!') & filters.me)
 def status(client_object, message: types.Message):
     status = message.text.replace("!status ", "")
     try:
