@@ -7,6 +7,37 @@ Then after launching the bot, write your phone number and verification code
 
 **IMPORTANT: PYROGRAM (PROET ENGINE) IS AN OPEN SOURCE PROGRAM, AND THE SITE https://my.telegram.org/ IS THE OFFICIAL SITE OF TELEGRAM!**
 
+
+## Команды бота
+
+**ВАЖНО: КОМАНДЫ БОТА МОЖНО ПИСАТЬ В ЛЮБЫЕ ЧАТЫ, НО ОБЯЗАТЕЛЬНО СО СВОЕГО АККАУНТА!*
+
+
+
+### !status {text}
+**"Статус" - текст после команды !status**
+Данная команда добавляет в описание профиля "статус"
+
+**Пример:**
+Описание - python dev
+
+"сообщение" - !status writing code
+
+Новое описание - python dev | TgStatus: writing code
+
+**ВАЖНО: У ТЕЛЕГРАМ ЕСТЬ ОГРАНИЧЕНИЕ ПО СИМВОЛАМ В ОПИСАНИИ. "СТАТУС" НЕ ДОЛЖЕН БЫТЬ СЛИШКОМ ДЛИННЫМ!**
+
+
+### !remove_status
+Эта команда убирает статус
+
+**Пример:*
+Старое описание - python dev | TgStatus: writing code
+
+Описание после команды !remove_status - python dev
+
+
+
 # RU
  ## Как зарегистрироваться в боте?
 
@@ -19,7 +50,7 @@ Then after launching the bot, write your phone number and verification code
 
 ## Команды бота
 
-**ВАЖНО: КОМАНДЫ БОТА МОЖНО ПИСАТЬ В ЛЮБЫЕ ЧАТЫ, НО ОБЯЗАТЕЛЬНО СО СВОЕГО АККАУНТА!*
+**ВАЖНО: КОМАНДЫ БОТА МОЖНО ПИСАТЬ В ЛЮБЫЕ ЧАТЫ, НО ОБЯЗАТЕЛЬНО СО СВОЕГО АККАУНТА!**
 
 
 
