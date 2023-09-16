@@ -7,7 +7,7 @@ To get started, go to the website https://my.telegram.org/, write your phone num
 
 Then after launching the bot, write your phone number and verification code
 
-#### IMPORTANT: PYROGRAM (PROET ENGINE) IS AN OPEN SOURCE PROGRAM, AND THE SITE https://my.telegram.org/ IS THE OFFICIAL SITE OF TELEGRAM!
+**IMPORTANT: PYROGRAM (PROET ENGINE) IS AN OPEN SOURCE PROGRAM, AND THE SITE https://my.telegram.org/ IS THE OFFICIAL SITE OF TELEGRAM!**
 
 ## RU
  ### Как зарегистрироваться в боте?
@@ -16,4 +16,4 @@ Then after launching the bot, write your phone number and verification code
 
 Затем после запуска бота напишите свой номер телефона и код подтверждения
 
-#### ВАЖНО: PYROGRAM (ДВИЖОК ПРОЕТА) - ПРОГРАМА С ОТКРЫТЫМ КОДОМ, А САЙТ https://my.telegram.org/ - ОФФИЦИАЛЬНЫЙ САЙТ ТЕЛЕГРАМА!
+**ВАЖНО: PYROGRAM (ДВИЖОК ПРОЕТА) - ПРОГРАМА С ОТКРЫТЫМ КОДОМ, А САЙТ https://my.telegram.org/ - ОФФИЦИАЛЬНЫЙ САЙТ ТЕЛЕГРАМА!**
