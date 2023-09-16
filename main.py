@@ -10,8 +10,6 @@ config.read('config.ini')
 api_id = config.get('pyrogram', 'api_id')
 api_hash = config.get('pyrogram', 'api_hash')
 
-# print("bot is start")
-
 app = Client('my_account', api_id, api_hash)
 @app.on_message(filters.command("status", prefixes='!') & filters.me)
 def status(client_object, message: types.Message):
